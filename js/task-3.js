@@ -1,8 +1,8 @@
 function checkForSpam(message){
     if(message.toUpperCase().includes('spam'.toUpperCase()) || message.toUpperCase().includes('sale'.toUpperCase())){
-        return 'true';
+        return true;
     }
-     return 'false';
+     return false;
 }
 
 
